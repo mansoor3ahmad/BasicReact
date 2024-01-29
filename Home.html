@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title>React Basic</title>
+</head>
+
+<body>
+    <h1 id="title"> Start Journey in React!!</h1>
+    <p>Welcome to react. Have a great learning upahead...</p>
+    <div id="nameHolder"></div>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <!-- <script type="text/babel" src="./Home.jsx"></script> -->
+    <script type="text/babel" src="./Home2.jsx"></script>
+    <!--<script type="text/jsx" src="./Home.jsx"></script>-->
+    <script type="text/jsx">
+        const ele = document.getElementById("nameHolder");
+        const root = ReactDOM.createRoot(ele);
+        root.render(<App/>);
+    </script>
+</body>
+
+</html>
